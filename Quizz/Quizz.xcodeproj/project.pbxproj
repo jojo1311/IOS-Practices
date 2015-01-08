@@ -12,6 +12,8 @@
 		3AFD578F1A5CBB4C00B70CBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD578E1A5CBB4C00B70CBC /* Images.xcassets */; };
 		3AFD57921A5CBB4C00B70CBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD57901A5CBB4C00B70CBC /* LaunchScreen.xib */; };
 		3AFD579E1A5CBB4C00B70CBC /* QuizzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD579D1A5CBB4C00B70CBC /* QuizzTests.m */; };
+		3AFD57AA1A5CC51E00B70CBC /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD57A81A5CC51E00B70CBC /* QuizViewController.m */; };
+		3AFD57AB1A5CC51E00B70CBC /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AFD57A91A5CC51E00B70CBC /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		3AFD57971A5CBB4C00B70CBC /* QuizzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD579C1A5CBB4C00B70CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AFD579D1A5CBB4C00B70CBC /* QuizzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizzTests.m; sourceTree = "<group>"; };
+		3AFD57A71A5CC51E00B70CBC /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		3AFD57A81A5CC51E00B70CBC /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		3AFD57A91A5CC51E00B70CBC /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 				3AFD57861A5CBB4C00B70CBC /* AppDelegate.m */,
 				3AFD578E1A5CBB4C00B70CBC /* Images.xcassets */,
 				3AFD57901A5CBB4C00B70CBC /* LaunchScreen.xib */,
+				3AFD57A71A5CC51E00B70CBC /* QuizViewController.h */,
+				3AFD57A81A5CC51E00B70CBC /* QuizViewController.m */,
+				3AFD57A91A5CC51E00B70CBC /* QuizViewController.xib */,
 				3AFD57811A5CBB4C00B70CBC /* Supporting Files */,
 			);
 			path = Quizz;
@@ -194,6 +202,7 @@
 			files = (
 				3AFD57921A5CBB4C00B70CBC /* LaunchScreen.xib in Resources */,
 				3AFD578F1A5CBB4C00B70CBC /* Images.xcassets in Resources */,
+				3AFD57AB1A5CC51E00B70CBC /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +222,7 @@
 			files = (
 				3AFD57871A5CBB4C00B70CBC /* AppDelegate.m in Sources */,
 				3AFD57841A5CBB4C00B70CBC /* main.m in Sources */,
+				3AFD57AA1A5CC51E00B70CBC /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
